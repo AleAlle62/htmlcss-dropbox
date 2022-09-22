@@ -1,3 +1,4 @@
+/* defoult */
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -9,26 +10,32 @@ html{
 }
 
 
-/* header{
-    position: fixed;
-} */
+/* container navbar */
 
 .container1{
     /* position: fixed; */
     margin: 0 auto;
     height: 100px;
-    background-color: orange;
+    background-color: white;
     max-width: 1500px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
+/* liste */
+
+li{
+    padding: 7px;
+}
 .ul2{
-    margin-left: 600px;
+    margin-left: 350px;
+    align-items: center;
 }
 
 .ul1{
     margin-left: 30px;
+
 }
 
 .logo1{
@@ -38,6 +45,18 @@ html{
 ul{
     list-style: none;
     display: flex;
-    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.inizia{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(30, 157, 237); 
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    border-radius: 28px;
+}
+
+/* fine navbar */
