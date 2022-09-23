@@ -50,7 +50,7 @@ ul{
 }
 
 .inizia{
-    background-color: rgb(30, 47, 237); 
+    background-color: rgb(14, 62, 236); 
     color: white; 
     text-decoration: none;
     height: 40px;
@@ -68,4 +68,63 @@ ul{
 
 /* prima section del tutto cio che ti serve */
 
+.container4{
+    margin: 0 auto;
+    height: 600px;
+    background-color: rgb(116, 175, 237);
+    position: relative;
+}
 
+.title1 h1{
+    font-size: 60px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    right: 400px;
+}
+
+.title1 p{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 220px;
+    right: 800px;
+}
+
+
+.title1 img{
+    height: 27rem;
+    position: absolute;
+    left: 650px;
+    top: 220px;
+}
+
+.title1 .prova{
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 45px;
+    width: 220px;
+    background-color: rgb(14, 62, 236);
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+.title1 .annulla{
+    position: absolute;
+    left: 300px;
+    top: 425px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.freccia{
+    position: absolute;
+    left: 300px;
+    top: 520px;
+    font-size: 60px;
+}
