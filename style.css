@@ -59,6 +59,7 @@ ul{
     width: 80px;
     text-align: center;
     padding-top: 10px;
+    border-radius: 28px;
 }
 
 .ciao{
@@ -113,6 +114,8 @@ ul{
     background-color: rgb(14, 62, 236);
     text-align: center;
     padding-top: 12px;
+    border-radius: 28px;
+
 }
 
 
@@ -147,7 +150,7 @@ ul{
 .container6{
     margin: 0 auto;
     /* display: flex; */
-    height: 1250px;
+    height: 1200px;
     background-color: orange;
     position: relative;
 }
@@ -240,6 +243,7 @@ ul{
     text-align: center;
     margin: auto;
     padding-top: 15px;
+    border-radius: 28px;
 }
 
 .acquista{
@@ -271,4 +275,119 @@ ul{
 
 /* parte sotto colonne */
 
+.container7{
+    height: 250px;
+    background-color: green; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 
+.team{
+    margin-top: 20px;
+    border: 1px solid gray;
+    height: 40px;
+    width: 1030px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sotto-team{
+    border: 1px solid gray;
+    height: 150px;
+    width: 1030px;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 350px;
+    background-color: aqua;
+}
+
+.sotto-team h2{
+    font-size: 30px;
+}
+
+.sotto-team p{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-contatta{
+    position: absolute;
+    left: 800px;
+    height: 40px;
+    width: 220px;
+    background-color:  rgb(14, 62, 236);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 28px;
+}
+
+/* fine colonne ecc */
+
+.container8{
+    height: 600px;
+    background-color: brown; 
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+}
+
+
+
+
+
+
+.title123 h1{
+    font-size: 30px;
+    position: absolute;
+    left: 800px;
+    top: 160px;
+    right: 250px;
+}
+
+.title123 p{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+    right: 250px;
+}
+
+
+.title123 img{
+    height: 27rem;
+    position: absolute;
+    left: 205px;
+    top: 100px;
+}
+
+.title123 .prova{
+    position: absolute;
+    left: 800px;
+    top: 370px;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 45px;
+    width: 220px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 12px;
+
+}
+
+
+/* fine immagine */
+
+
+container esegui con due container dentro, uno per il titolo e uno per le immagini. 
