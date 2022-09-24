@@ -491,3 +491,145 @@ ul{
 }
 
 /* fine sottotitolo */
+
+.loghigrandi{
+    height: 400px;
+    background-color: deeppink;
+    display: flex;
+    position: relative;
+}
+
+/* loghi sinistra */
+
+.loghi-l{
+    height: 400px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+}
+
+/* logo 1 */
+.logo-design{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;  
+}
+
+
+.bloccoverde{
+    height: 200px;
+    width: 220px;
+    background-color: rgb(128, 211, 128);
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(183, 208, 183);
+}
+
+/* logo 2 */
+
+
+.bloccoblu{
+    height: 200px;
+    width: 220px;
+    background-color: rgb(98, 177, 240);
+    display: flex;
+    justify-content: center;
+}
+
+.logo-uf{
+    height: 20px;
+    width: 100px;
+    margin-top: 90px;  
+}
+
+/* logo 3 */
+
+.bloccomarrone{
+    height: 200px;
+    width: 220px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 220px;
+    top: 0px;
+}
+
+.logo-asu{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;  
+
+}
+
+/* logo 4 */
+
+.bloccorosso{
+    height: 200px;
+    width: 220px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 220px;
+    top: 200px;
+}
+
+.logo-top{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;  
+    fill: white;
+}
+
+
+
+/* fine logo left */
+
+
+
+.logo-c{
+    height: 400px;
+    width: 550px;
+    background-color: orange;
+    position: absolute;
+    left: 450px;
+}
+
+.designgrosso{
+    height: 80px;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+
+}
+
+.dentro-design .linea{
+    position: absolute;
+    top: 200px;
+    width: 110px;
+}
+
+
+.dentro-design p{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+.loghi-r{
+    height: 400px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    left: 1000px;
+}
