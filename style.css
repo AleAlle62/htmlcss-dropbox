@@ -16,7 +16,7 @@ html{
     position: fixed; 
     margin: 0 auto;
     height: 4rem;
-    background-color: white;
+    background-color: rgb(157, 255, 0);
     /* max-width: 1500px */
     display: flex;
     justify-content: space-around;
@@ -620,16 +620,127 @@ ul{
 }
 
 
+/* fine logo centrale */
 
-
-
-
-
+/* logo 1 destra */
 
 .loghi-r{
     height: 400px;
     width: 450px;
-    background-color: black;
-    position: absolute;
+    background-color: green;
+    position: relative;
     left: 1000px;
 }
+
+
+.logo-d-1{
+    height: 200px;
+    background-color: red;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dentro-d-1{
+    height: 50px;
+    align-self: center;
+}
+
+
+/* logo 2 destra */
+
+
+
+
+.logo-d-2{
+    height: 200px;
+    background-color: rgb(116, 175, 237);
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 1220px;
+}
+
+
+.dentro-d-2{
+    height: 15px;
+    align-self: center;
+}
+
+/* logo destra 3 */
+
+
+.logo-d-3{
+    height: 200px;
+    background-color: blue;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+
+
+.dentro-d-3{
+    height: 50px;
+    align-self: center;
+}
+
+/* logo 4 */
+
+
+.logo-d-4{
+    height: 200px;
+    background-color: yellow;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 1220px;
+    top: 200px;
+}
+
+
+.dentro-d-4{
+    height: 50px;
+    align-self: center;
+}
+
+/* fine loghi */
+
+
+.container10{
+    height: 300px;
+    background-color: rgb(116, 175, 237) ;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.container10 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    right: 800px;
+}
+
+.container10 p{
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    height: 3em;
+    width: 13em;
+    text-align: center;
+    padding-top: 13px;
+    background-color: white;
+    border-radius: 28px;
+    color: grey;
+}
+
+/* inzio footer */
+
+
