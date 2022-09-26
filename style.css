@@ -16,7 +16,7 @@ html{
     position: fixed; 
     margin: 0 auto;
     height: 4rem;
-    background-color: rgb(157, 255, 0);
+    background-color: white;
     /* max-width: 1500px */
     display: flex;
     justify-content: space-around;
@@ -140,7 +140,7 @@ ul{
     
 
     height: 80px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 /* separazione dell'immagine */
@@ -151,7 +151,7 @@ ul{
     margin: 0 auto;
     /* display: flex; */
     height: 1200px;
-    background-color: orange;
+    /* background-color: orange; */
     position: relative;
 }
 
@@ -277,7 +277,7 @@ ul{
 
 .container7{
     height: 250px;
-    background-color: green; 
+    /* background-color: green;  */
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -306,7 +306,7 @@ ul{
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 350px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .sotto-team h2{
@@ -334,7 +334,7 @@ ul{
 
 .container8{
     height: 600px;
-    background-color: brown; 
+    /* background-color: brown;  */
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -395,7 +395,7 @@ ul{
 .container9{
     height: 1200px;
     margin: 0 auto;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     display: flex;
     /* position: relative; */
     justify-content: space-between;
@@ -408,7 +408,7 @@ ul{
     position: absolute;
     left: 205px;
     height: 50px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .immaginicontainer9-a{
@@ -425,7 +425,7 @@ ul{
     /* margin: 50px; */
     padding-right: 300px;
     padding-left: 200px;
-    background-color: blue;
+    /* background-color: blue; */
     /* left: 205px; */
     /* position: absolute;
     top: 150px;
@@ -462,7 +462,7 @@ ul{
     /* margin: 50px; */
     padding-right: 300px;
     padding-left: 200px;
-    background-color: blueviolet;   
+    /* background-color: blueviolet;    */
 }
 
 /* fine immagini */
@@ -471,21 +471,21 @@ ul{
 
 .piu500{
     height: 300px;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: relative;
 }
 
 .piu500 h2{
     position: absolute;
     top: 80px;
-    left: 150px;
+    left: 200px;
     right: 800px;
     font-size: 30px;
 }
 
 .piu500 a{
     position: absolute;
-    left: 150px;
+    left: 200px;
     top: 200px;
     font-size: small;
 }
@@ -494,7 +494,7 @@ ul{
 
 .loghigrandi{
     height: 400px;
-    background-color: deeppink;
+    /* background-color: deeppink; */
     display: flex;
     position: relative;
 }
@@ -504,7 +504,7 @@ ul{
 .loghi-l{
     height: 400px;
     width: 450px;
-    background-color: black;
+    /* background-color: black; */
     position: absolute;
     
 }
@@ -596,7 +596,7 @@ ul{
 .logo-c{
     height: 400px;
     width: 550px;
-    background-color: orange;
+    /* background-color: orange; */
     position: absolute;
     left: 450px;
 }
@@ -758,7 +758,7 @@ ul{
 
 .domandefrequenti{
     height: 500px;
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
     display: flex;
     flex-direction: column;
     position: relative;
