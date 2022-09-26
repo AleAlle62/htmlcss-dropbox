@@ -129,7 +129,7 @@ ul{
 
 .freccia{
     position: absolute;
-    left: 300px;
+    left: 200px;
     top: 520px;
     font-size: 60px;
 }
@@ -506,6 +506,7 @@ ul{
     width: 450px;
     background-color: black;
     position: absolute;
+    
 }
 
 /* logo 1 */
@@ -513,6 +514,7 @@ ul{
     height: 100px;
     width: 100px;
     margin-top: 50px;  
+    filter: invert(1);
 }
 
 
@@ -540,6 +542,8 @@ ul{
     height: 20px;
     width: 100px;
     margin-top: 90px;  
+    filter: invert(1);
+
 }
 
 /* logo 3 */
@@ -558,8 +562,8 @@ ul{
 .logo-asu{
     height: 100px;
     width: 100px;
-    margin-top: 50px;  
-
+    margin-top: 50px; 
+    filter: invert(1);
 }
 
 /* logo 4 */
@@ -580,6 +584,7 @@ ul{
     width: 100px;
     margin-top: 50px;  
     fill: white;
+    filter: invert(1);
 }
 
 
@@ -645,6 +650,8 @@ ul{
 .dentro-d-1{
     height: 50px;
     align-self: center;
+    filter: invert(1);
+
 }
 
 
@@ -667,6 +674,7 @@ ul{
 .dentro-d-2{
     height: 15px;
     align-self: center;
+    filter: invert(1);
 }
 
 /* logo destra 3 */
@@ -687,6 +695,8 @@ ul{
 .dentro-d-3{
     height: 50px;
     align-self: center;
+    filter: invert(1);
+
 }
 
 /* logo 4 */
@@ -694,7 +704,7 @@ ul{
 
 .logo-d-4{
     height: 200px;
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
     width: 220px;
     display: flex;
     justify-content: center;
@@ -707,6 +717,8 @@ ul{
 .dentro-d-4{
     height: 50px;
     align-self: center;
+    filter: invert(1);
+
 }
 
 /* fine loghi */
@@ -744,3 +756,66 @@ ul{
 /* inzio footer */
 
 
+.domandefrequenti{
+    height: 500px;
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    gap: 2.5em;
+}
+
+
+.domandefrequenti h2{
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.domandefrequenti p{
+    margin-left: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+.domandefrequenti .linea{
+    margin-left: 200px;
+    width: 1000px;
+}
+
+.domandefrequenti .fa-solid{
+    color: gray;
+    margin-left: 420px;
+}
+
+/* fine mezzo footer */
+
+.ultimocontainer{
+    background-color: black;
+    height: 530px;
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: space-around;
+}
+
+.colonna-1-footer{
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.colonna-1-footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+
+.colonna-1-footer .linea{
+    margin-left: 0px;
+    width: 100px;
+}
+
+.colonna-1-footer .linea p{
+    margin-top: 25px;
+}
