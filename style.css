@@ -632,7 +632,7 @@ ul{
 .loghi-r{
     height: 400px;
     width: 450px;
-    background-color: green;
+    /* background-color: green; */
     position: relative;
     left: 1000px;
 }
@@ -787,6 +787,31 @@ ul{
     color: gray;
     margin-left: 420px;
 }
+
+.domandefrequenti li{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 180px;
+}
+
+.information{
+    display: none;
+    margin-top: 20px;
+}
+
+.faq:hover .information{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* fine mezzo footer */
 
